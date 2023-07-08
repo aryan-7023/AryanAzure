@@ -1,0 +1,12 @@
+{
+	"name": "Azure git",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobStorage",
+		"typeProperties": {
+			"connectionString": "DefaultEndpointsProtocol=https;AccountName=azuregitpractise;EndpointSuffix=core.windows.net;",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQEQ0QUNDNDc3LTkwMEQtNEIwMi1CQjZBLUQ5NjdEMEM1NTNDQV8wYzBiMmU4MS02OTI0LTRhMmEtOGI2ZS1mY2U4Zjc4ZjM0ZDkiDQp9"
+		}
+	}
+}
